@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  text-align: center;
+  float: right;
+  margin-right: 20%;
+  margin-top: 200px;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  margin-right: 20px;
+}
